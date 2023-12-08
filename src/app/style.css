@@ -10,8 +10,6 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
-
 svg {
   z-index: 100;
 }
@@ -194,8 +192,8 @@ canvas {
   user-select: none;
   opacity: 1;
   transition: all 0.4s ease-in-out;
-  -ms-overflow-style: none; 
-  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   background-color: rgb(75, 74, 84, 1);
   z-index: 10;
 }
